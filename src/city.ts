@@ -10,10 +10,10 @@ export async function cities(provincePCode: string): Promise<CityMun[]> {
 
 export async function cityByCode(code: string): Promise<CityMun | undefined> {
   const data = await fetchData<CityMun>('city');
-  return dataFind(data, 'CITY_MUN_PCODE', code);
+  return dataFind(data, 'CITY_PCODE', code);
 }
 
 export async function cityByName(name: string): Promise<CityMun[]> {
   const data = await fetchData<CityMun>('city');
-  return dataFilter(data, 'CITY_MUN_NAME', name);
+  return dataFilter(data, 'CITY_NAME', name);
 }

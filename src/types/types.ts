@@ -15,10 +15,10 @@ export interface Province {
 }
 
 export interface CityMun {
-  CITY_MUN_NAME: string;
-  CITY_MUN_PCODE: string;
-  CITY_MUN_REF: string;
-  CITY_MUN_ALTNAME: string;
+  CITY_NAME: string;
+  CITY_PCODE: string;
+  CITY_REF: string;
+  CITY_ALTNAME: string;
   PROVINCE_NAME: string;
   PROVINCE_PCODE: string;
   REGION_NAME: string;
@@ -29,8 +29,8 @@ export interface Barangay {
   BRGY_NAME: string;
   BRGY_PCODE: string;
   BRGY_REF: string;
-  CITY_MUN_NAME: string;
-  CITY_MUN_PCODE: string;
+  CITY_NAME: string;
+  CITY_PCODE: string;
   PROVINCE_NAME: string;
   PROVINCE_PCODE: string;
   REGION_NAME: string;

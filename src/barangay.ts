@@ -5,7 +5,7 @@ import { dataFilter, dataFind, fetchData } from 'utils/utils';
 
 export async function barangays(cityMunPCode: string): Promise<Barangay[]> {
   const data = await fetchData<Barangay>('barangay');
-  return dataFilter(data, 'CITY_MUN_PCODE', cityMunPCode);
+  return dataFilter(data, 'CITY_PCODE', cityMunPCode);
 }
 
 export async function barangayByCode(code: string): Promise<Barangay | undefined> {
