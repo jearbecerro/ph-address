@@ -1,0 +1,4 @@
+export * from './region'
+export * from './province'
+export * from './city'
+export * from './barangay'

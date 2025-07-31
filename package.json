@@ -1,0 +1,36 @@
+{
+  "name": "ph-address",
+  "version": "1.0.0",
+  "description": "Latest Philippine Address as of 2023",
+  "homepage": "https://github.com/jearbecerro/ph-address",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jearbecerro/ph-address.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "github",
+    "select",
+    "philippines",
+    "address",
+    "regions",
+    "picker",
+    "latest",
+    "jeardev"
+  ],
+  "author": "Rolando C. Becerro Jr. <rolandobecerrojr.job@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.11.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4"
+  }
+}

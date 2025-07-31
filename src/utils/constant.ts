@@ -1,0 +1,2 @@
+export const BASE_URL = 'https://raw.githubusercontent.com/jearbecerro/address-ph/refs/heads/main';
+export const GOOGLE_API = 'https://maps.googleapis.com/maps/api/geocode/json?'//address=${encodedAddress}&key=${apiKey}
